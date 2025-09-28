@@ -1,0 +1,65 @@
+/* --- Estilos generales --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fafafa;
+    color: #333;
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    color: #222;
+}
+
+/* --- Listas (index.html) --- */
+ul, ol {
+    margin: 15px 0;
+    padding-left: 40px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* --- Tabla (cuenta.html) --- */
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #e6e6e6;
+}
+
+.total {
+    font-weight: bold;
+}
+
+/* --- Enlaces --- */
+a {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004080;
+}
